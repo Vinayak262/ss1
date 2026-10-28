@@ -153,7 +153,7 @@ with right:
     with st.form("prediction_form"):
         service = st.selectbox(
             "Service location",
-            ["Cafeteria", "Admin Office", "Library Counter", "Fee Counter", "Student Service Center"],
+            ["Cafeteria", "Admin Office", "Library Counter", "Fee Counter", "Student Service Center", "Classroom", "Auditorium"],
         )
         day_of_week = st.selectbox(
             "Day of week",
@@ -221,4 +221,5 @@ st.markdown(
     '<div class="footnote">IntelliQueue | Estimates are based on the trained project models.</div>',
     unsafe_allow_html=True,
 )
+
 

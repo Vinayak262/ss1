@@ -451,6 +451,8 @@ System Online •{" "}
                 <option>
                   Student Service Center
                 </option>
+                <option>Classroom</option>
+                <option>Auditorium</option>
               </select>
             </div>
 
